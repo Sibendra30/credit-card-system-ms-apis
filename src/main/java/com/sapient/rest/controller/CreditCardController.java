@@ -1,4 +1,4 @@
-package com.sapient.rest.api;
+package com.sapient.rest.controller;
 
 import java.util.List;
 
@@ -15,7 +15,7 @@ import com.sapient.rest.service.IAddNewCreditCardService;
 import com.sapient.rest.service.IGetCreditCards;
 
 @RestController
-public class CreditCardApi {
+public class CreditCardController {
 
 	@Autowired
 	private IAddNewCreditCardService addNewCreditCardService;

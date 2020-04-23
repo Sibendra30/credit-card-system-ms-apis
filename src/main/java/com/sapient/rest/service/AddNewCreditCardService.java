@@ -23,7 +23,7 @@ public class AddNewCreditCardService implements IAddNewCreditCardService {
 			return false;
 		}
 		
-		if (card.getCcNumber() == null || card.getCcNumber().isEmpty()) {
+		if (card.getCcNumber() == null || card.getCcNumber().isEmpty() || card.getCcNumber().length() != 16) {
 			System.out.println("Mandatory param ccNumber missing");
 			return false;
 		}

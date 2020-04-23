@@ -3,9 +3,7 @@ package com.sapient.rest.util;
 
 public class CommonValidator {
 
-	public static void main(String[] args) {
-		validateLuhn10("799273987134");
-	}
+	
 	
 	public static boolean validateLuhn10(String ccNumber) {
 		if (ccNumber == null || ccNumber.trim().isEmpty()) {
